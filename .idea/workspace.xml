@@ -4,34 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d18e00e-637d-47f4-adce-fe31792206ba" name="Changes" comment="adf">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/common/BrowsersService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/configuration/ReadProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/constans/Constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/TestRailPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/baseEntities/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/baseEntities/BaseStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/baseEntities/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/DashboardPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ProjectsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/SideMenuPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TopMenuPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/LoginStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/NavigationSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestRailProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TestRailProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/1308b7b4-4d6a-4690-b6c1-84a03594d5d4-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/3f490006-03bc-4cd7-ba12-0c9e54733bda-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/5fdf84f0-40e5-465e-811f-2f204d5fe38b-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/65043327-c5d4-4618-b4eb-970e317af633-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/683d5d92-c555-40db-9ae9-8d0063f0c582-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/7b6ae804-7f82-493b-a247-f05e1403517d-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/d4d3a642-9934-47d2-ae7a-fa52000c7652-container.json" beforeDir="false" />
-    </list>
+    <list default="true" id="8d18e00e-637d-47f4-adce-fe31792206ba" name="Changes" comment="adf" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -150,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657127191128</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="adf">
+      <created>1657387365610</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657387365610</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
