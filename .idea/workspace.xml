@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d18e00e-637d-47f4-adce-fe31792206ba" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Services/WaitsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/FileUploadTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/configuration/ReadProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/configuration/ReadProperties.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +55,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -69,6 +68,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="Services" />
       <recent name="pages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -78,7 +78,7 @@
       <recent name="pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest.invalidPsw">
+  <component name="RunManager" selected="TestNG.FileUploadTest.fileUploadTest">
     <configuration name="BaseTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestRailProject" />
       <extension name="coverage">
@@ -90,6 +90,24 @@
       <option name="PACKAGE_NAME" value="data" />
       <option name="MAIN_CLASS_NAME" value="data.BaseTest" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileUploadTest.fileUploadTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestRailProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.FileUploadTest" />
+      <option name="METHOD_NAME" value="fileUploadTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -152,6 +170,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.FileUploadTest.fileUploadTest" />
         <item itemvalue="TestNG.LoginTest.invalidPsw" />
         <item itemvalue="TestNG.LoginTest.invalidLogon" />
         <item itemvalue="TestNG.LoginTest.successLoginTest" />
@@ -224,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657449971735</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="commit">
+      <created>1657453503116</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1657453503116</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
