@@ -1,7 +1,5 @@
 package configuration;
 
-import org.bouncycastle.util.Properties;
-
 import java.io.IOException;
 import java.util.Properties;
 
