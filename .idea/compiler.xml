@@ -9,5 +9,8 @@
         <module name="TestRailProject" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="TestRailProject" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
