@@ -2,7 +2,7 @@ package baseEntities;
 
 import steps.LoginStep;
 import steps.NavigationSteps;
-import configuration.BrowsersService;
+import Services.BrowsersService;
 import configuration.ReadProperties;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
