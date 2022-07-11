@@ -12,11 +12,17 @@ public class FileUploadTest extends BaseTest {
 
     @Test
     public void fileUploadTest(){
-
         driver.get("http://the-internet.herokuapp.com/upload");
-        WaitsService wait = new WaitsService(driver, Duration.ofSeconds(30));
-        WebElement fileUploadPath = wait.waitForExists(By.id("file-upload"));
-        fileUploadPath.sendKeys("C:\\proekt\\src\\test\\resources\\File Uploader.docx");
+
+        WaitsService wait = new WaitsService(driver, Duration.ofSeconds(20));
+        WebElement fileUploadPath = wait.waitForExists(By.id("file-submit"));
+        fileUploadPath.sendKeys("C:\\TestRailProject\\src\\test\\resources\\File Uploader.docx");
         wait.waitForExists(By.id("file-submit")).submit();
+
+
+
     }
+
 }
+
+
