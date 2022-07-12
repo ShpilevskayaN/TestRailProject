@@ -3,6 +3,7 @@ package steps;
 import baseEntities.BaseStep;
 import org.openqa.selenium.WebDriver;
 import pages.ProjectsPage;
+import pages.SideMenuPage;
 
 public class NavigationSteps extends BaseStep {
     public SideMenuPage sideMenuPage;
