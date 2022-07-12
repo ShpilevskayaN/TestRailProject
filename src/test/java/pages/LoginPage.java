@@ -9,13 +9,11 @@ import org.openqa.selenium.WebElement;
 
 public class LoginPage extends BasePage {
 
-    //Блок описания селекторов для элементов
     private By emailInputLocator = By.id("name");
     private By pswInputLocator = By.id("password");
     private By logInButtonLocator = By.id("button_primary");
     private By errorTextLocator = By.className("error-text");
 
-    //Блок инициализации
     public LoginPage(WebDriver driver) {super(driver);}
 
     @Override
@@ -23,7 +21,6 @@ public class LoginPage extends BasePage {
         return emailInputLocator;
     }
 
-    //Блок атомарных методов
     public WebElement getEmailInput(){return driver.findElement(emailInputLocator);}
     public WebElement getPswInput(){
         return driver.findElement(pswInputLocator);

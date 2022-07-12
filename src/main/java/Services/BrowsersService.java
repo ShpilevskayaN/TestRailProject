@@ -30,15 +30,6 @@ public class BrowsersService{
                         driver = new ChromeDriver(chromeOptions);
 
                         break;
-                    case "firefox":
-                        driverManagerType = DriverManagerType.FIREFOX;
-                        WebDriverManager.getInstance(driverManagerType).setup();
-
-                        driver = new FirefoxDriver();
-                        break;
-                    default:
-                        System.out.println("Browser " + ReadProperties.browserName() + " is not supported. ");
-                        break;
                 }
             }
 
