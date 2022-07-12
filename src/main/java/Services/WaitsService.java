@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
+import java.util.List;
 
 public class WaitsService {
     private WebDriverWait wait;
@@ -15,10 +16,10 @@ public class WaitsService {
         wait = new WebDriverWait(driver, timeout);
     }
 
-    public WebElement waitForExists (By id){
+    public WebElement waitForExists(By id) {
 
         return null;
     }
 
-}
+    }
 
