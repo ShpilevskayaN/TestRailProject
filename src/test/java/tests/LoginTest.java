@@ -7,18 +7,18 @@ import org.testng.annotations.Test;
 
 public class LoginTest extends BaseTest {
 
-    @Test
+    @Test(description = "Success login")
     public void successLoginTest() {
-        Assert.assertTrue(loginStep.successLogin(ReadProperties.username(), ReadProperties.password()).isPageOpened());
+        Assert.assertFalse(loginStep.successLogin(ReadProperties.username(), ReadProperties.password()).isPageClose());
     }
 
-    @Test
+    @Test(description ="Invalid login")
     public void invalidLogin() {
         Assert.assertEquals(loginStep.incorrectLogin("fbhdgtnfgn",
                 ReadProperties.password()).getErrorTextElement().getText(), "Email/Login or Password is incorrect. Please try again.");
     }
 
-    @Test
+    @Test(description ="Invalid Psw")
     public void invalidPsw() {
         Assert.assertEquals(
                 loginStep.incorrectLogin(

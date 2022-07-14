@@ -105,21 +105,19 @@
     <orderEntry type="library" name="Maven: io.qameta.allure:allure-model:2.18.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: io.qameta.allure:allure-test-filter:2.18.0" level="project" />
     <orderEntry type="library" name="Maven: org.aspectj:aspectjweaver:1.8.10" level="project" />
-    <orderEntry type="library" name="Maven: io.cucumber:cucumber-java:7.2.2" level="project" />
-    <orderEntry type="library" name="Maven: io.cucumber:cucumber-core:7.2.2" level="project" />
-    <orderEntry type="library" name="Maven: io.cucumber:cucumber-gherkin:7.2.2" level="project" />
-    <orderEntry type="library" name="Maven: io.cucumber:cucumber-gherkin-messages:7.2.2" level="project" />
-    <orderEntry type="library" name="Maven: io.cucumber:messages:17.1.1" level="project" />
-    <orderEntry type="library" name="Maven: io.cucumber:tag-expressions:4.1.0" level="project" />
-    <orderEntry type="library" name="Maven: io.cucumber:cucumber-expressions:15.0.1" level="project" />
-    <orderEntry type="library" name="Maven: io.cucumber:datatable:7.2.2" level="project" />
-    <orderEntry type="library" name="Maven: io.cucumber:cucumber-plugin:7.2.2" level="project" />
-    <orderEntry type="library" name="Maven: io.cucumber:docstring:7.2.2" level="project" />
-    <orderEntry type="library" name="Maven: io.cucumber:html-formatter:17.0.0" level="project" />
-    <orderEntry type="library" name="Maven: io.cucumber:ci-environment:8.1.0" level="project" />
-    <orderEntry type="library" name="Maven: org.apiguardian:apiguardian-api:1.1.2" level="project" />
-    <orderEntry type="library" name="Maven: io.cucumber:cucumber-testng:7.2.2" level="project" />
-    <orderEntry type="library" name="Maven: io.cucumber:cucumber-picocontainer:7.2.2" level="project" />
-    <orderEntry type="library" name="Maven: org.picocontainer:picocontainer:2.15" level="project" />
+    <orderEntry type="library" name="Maven: io.rest-assured:rest-assured:4.5.0" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.groovy:groovy:3.0.9" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.groovy:groovy-xml:3.0.9" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient:4.5.13" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.4.13" level="project" />
+    <orderEntry type="library" name="Maven: commons-logging:commons-logging:1.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpmime:4.5.13" level="project" />
+    <orderEntry type="library" name="Maven: org.hamcrest:hamcrest:2.1" level="project" />
+    <orderEntry type="library" name="Maven: org.ccil.cowan.tagsoup:tagsoup:1.2.1" level="project" />
+    <orderEntry type="library" name="Maven: io.rest-assured:json-path:4.5.0" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.groovy:groovy-json:3.0.9" level="project" />
+    <orderEntry type="library" name="Maven: io.rest-assured:rest-assured-common:4.5.0" level="project" />
+    <orderEntry type="library" name="Maven: io.rest-assured:xml-path:4.5.0" level="project" />
+    <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.18.22" level="project" />
   </component>
 </module>
