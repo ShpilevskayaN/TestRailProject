@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d18e00e-637d-47f4-adce-fe31792206ba" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/helpers/MilestoneApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/baseEntities/BaseApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/models/Milestone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/MilestoneApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/configuration/EndpointsApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/configuration/EndpointsApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/helpers/MilestoneApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helpers/MilestoneApi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,12 +99,12 @@
       <recent name="pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.FileUploadTest.fileUploadTest">
+  <component name="RunManager" selected="TestNG.MilestoneApiTest.addMilestoneTest">
     <configuration name="FileUploadTest.fileUploadTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestRailProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="baseEntities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,29 +118,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileUploadTest.hoverTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestRailProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.FileUploadTest" />
-      <option name="METHOD_NAME" value="hoverTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestRailProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="baseEntities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,7 +139,7 @@
       <module name="TestRailProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="baseEntities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,7 +157,7 @@
       <module name="TestRailProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="baseEntities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,13 +171,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MilestoneApiTest.addMilestoneTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestRailProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.MilestoneApiTest" />
+      <option name="METHOD_NAME" value="addMilestoneTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.MilestoneApiTest.addMilestoneTest" />
         <item itemvalue="TestNG.FileUploadTest.fileUploadTest" />
         <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="TestNG.LoginTest.successLoginTest" />
         <item itemvalue="TestNG.LoginTest.invalidLogin" />
-        <item itemvalue="TestNG.FileUploadTest.hoverTest" />
       </list>
     </recent_temporary>
   </component>
@@ -295,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657801343441</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="commit">
+      <created>1657802824950</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1657802824950</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

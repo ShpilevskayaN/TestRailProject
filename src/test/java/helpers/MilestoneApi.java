@@ -31,7 +31,7 @@ public class MilestoneApi {
                 .as(MilestoneApi.class);
     }
 
-    public void addMilestone(int projectID) {
+    public void addMilestone(Map<String, Object> projectID) {
 
         given()
                 .pathParams("project_id", projectID)
