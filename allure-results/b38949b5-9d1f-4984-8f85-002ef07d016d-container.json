@@ -1,0 +1,1 @@
+{"uuid":"b38949b5-9d1f-4984-8f85-002ef07d016d","name":"TestRailProject","children":["65c48531-a37c-4a1d-9fa6-d44c51b13b44"],"befores":[{"name":"setupEnv","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1657905822674,"stop":1657905825458}],"afters":[],"start":1657905822612,"stop":1657905826750}
