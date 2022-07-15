@@ -32,3 +32,4 @@ public class AddProjectPage extends BasePage {
     public WebElement getShowTheAnnouncementCheckbox(){return waitsService.waitForPresenceOfElement(showTheAnnouncementCheckboxLocator);}
     public WebElement AddProjectButton(){return waitsService.waitForPresenceOfElement(addProjectButtonLocator);}
 }
+

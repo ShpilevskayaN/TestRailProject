@@ -10,6 +10,9 @@ public class AddProjectTest extends BaseTest {
     public void addNewProjectTest(){
         loginStep.successLogin(ReadProperties.username(),ReadProperties.password());
         navigationSteps.navigateToAddNewProjectPage();
-        Assert.assertEquals(addNewProjectSteps.addNewProject("New Project","Some Text").getSuccessMessage().getText(),"Successfully added the new project.");
+        Assert.assertEquals(addNewProjectTest();
+        Assert.assertEquals (addNewProjectSteps.addNewProject("New Project","Some Text").getSuccessMessage().getText(),"Successfully added the new project.");
+
+        (addNewProjectSteps.addNewProject("New Project","Some Text").getSuccessMessage().getText(),"Successfully added the new project.");
     }
 }
