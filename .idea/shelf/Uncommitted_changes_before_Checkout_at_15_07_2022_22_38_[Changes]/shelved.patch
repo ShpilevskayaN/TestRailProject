@@ -1,0 +1,30 @@
+Index: src/test/java/baseEntities/BaseApiTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package baseEntities;\r\n\r\nimport configuration.ReadProperties;\r\nimport io.restassured.RestAssured;\r\nimport io.restassured.http.ContentType;\r\nimport org.apache.http.protocol.HTTP;\r\nimport org.testng.annotations.BeforeTest;\r\n\r\nimport static io.restassured.RestAssured.given;\r\n\r\npublic class BaseApiTest {\r\n\r\n    @BeforeTest\r\n    public void setupEnv() {\r\n        RestAssured.baseURI = ReadProperties.getUrl();\r\n\r\n        RestAssured.requestSpecification = given()\r\n                .header(HTTP.CONTENT_TYPE, ContentType.JSON)\r\n                .auth().preemptive().basic(ReadProperties.username(), ReadProperties.password());\r\n    }\r\n}\r\n
+===================================================================
+diff --git a/src/test/java/baseEntities/BaseApiTest.java b/src/test/java/baseEntities/BaseApiTest.java
+--- a/src/test/java/baseEntities/BaseApiTest.java	
++++ b/src/test/java/baseEntities/BaseApiTest.java	
+@@ -1,21 +1,4 @@
+ package baseEntities;
+ 
+-import configuration.ReadProperties;
+-import io.restassured.RestAssured;
+-import io.restassured.http.ContentType;
+-import org.apache.http.protocol.HTTP;
+-import org.testng.annotations.BeforeTest;
+-
+-import static io.restassured.RestAssured.given;
+-
+ public class BaseApiTest {
+-
+-    @BeforeTest
+-    public void setupEnv() {
+-        RestAssured.baseURI = ReadProperties.getUrl();
+-
+-        RestAssured.requestSpecification = given()
+-                .header(HTTP.CONTENT_TYPE, ContentType.JSON)
+-                .auth().preemptive().basic(ReadProperties.username(), ReadProperties.password());
+-    }
+ }

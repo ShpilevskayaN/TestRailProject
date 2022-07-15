@@ -1,0 +1,158 @@
+Index: src/test/java/baseEntities/BaseTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package baseEntities;\r\n\r\nimport steps.LoginStep;\r\nimport steps.NavigationSteps;\r\nimport common.BrowsersService;\r\nimport configuration.ReadProperties;\r\nimport org.openqa.selenium.WebDriver;\r\nimport org.testng.annotations.AfterMethod;\r\nimport org.testng.annotations.BeforeMethod;\r\nimport common.BrowsersService;\r\nimport steps.LoginStep;\r\n\r\npublic class BaseTest {\r\n\r\n    protected WebDriver driver;\r\n    protected LoginStep loginStep;\r\n    protected NavigationSteps navigationSteps;\r\n\r\n    @BeforeMethod\r\n    public void setup() {\r\n        driver = new BrowsersService().getDriver();\r\n        loginStep = new LoginStep(driver);\r\n        navigationSteps= new NavigationSteps(driver);\r\n        driver.get(ReadProperties.getUrl());\r\n    }\r\n\r\n    @AfterMethod\r\n    public void tearDown() {\r\n        driver.quit();\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/baseEntities/BaseTest.java b/src/test/java/baseEntities/BaseTest.java
+--- a/src/test/java/baseEntities/BaseTest.java	(revision cfd0b2860d90492f1f8e1f2ca89b62fddb817696)
++++ b/src/test/java/baseEntities/BaseTest.java	(date 1657559356120)
+@@ -7,8 +7,7 @@
+ import org.openqa.selenium.WebDriver;
+ import org.testng.annotations.AfterMethod;
+ import org.testng.annotations.BeforeMethod;
+-import common.BrowsersService;
+-import steps.LoginStep;
++
+ 
+ public class BaseTest {
+ 
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"8d18e00e-637d-47f4-adce-fe31792206ba\" name=\"Changes\" comment=\"123\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"devevop\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"HighlightingSettingsPerFile\">\r\n    <setting file=\"file://$PROJECT_DIR$/pom.xml\" root0=\"FORCE_HIGHLIGHTING\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"generalSettings\">\r\n      <MavenGeneralSettings>\r\n        <option name=\"useMavenConfig\" value=\"true\" />\r\n      </MavenGeneralSettings>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2BXEIIGBNypAh0AwacCrUENaVN3\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\r\n    <property name=\"ToolWindowEvent Log.ShowToolbar\" value=\"false\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\r\n    <property name=\"project.structure.last.edited\" value=\"Modules\" />\r\n    <property name=\"project.structure.proportion\" value=\"0.15\" />\r\n    <property name=\"project.structure.side.proportion\" value=\"0.2\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"vcs.Git\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"D:\\QA18\\TestRailProject\\src\\main\\java\" />\r\n    </key>\r\n    <key name=\"MoveClassesOrPackagesDialog.RECENTS_KEY\">\r\n      <recent name=\"pages\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"BaseTest\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"TestRailProject\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"data.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"data\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"data.BaseTest\" />\r\n      <option name=\"TEST_OBJECT\" value=\"CLASS\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"TestNG.BaseTest\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"8d18e00e-637d-47f4-adce-fe31792206ba\" name=\"Changes\" comment=\"\" />\r\n      <created>1657043950464</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1657043950464</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"adf\">\r\n      <created>1657045880507</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1657045880507</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"adf\">\r\n      <created>1657046243335</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1657046243335</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"adf\">\r\n      <created>1657125821650</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1657125821650</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"adf\">\r\n      <created>1657127191128</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1657127191128</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"adf\">\r\n      <created>1657387365610</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1657387365610</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"123\">\r\n      <created>1657387638053</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1657387638053</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"7\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"devevop\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"adf\" />\r\n    <MESSAGE value=\"123\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"123\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision cfd0b2860d90492f1f8e1f2ca89b62fddb817696)
++++ b/.idea/workspace.xml	(date 1657555527903)
+@@ -4,7 +4,10 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="8d18e00e-637d-47f4-adce-fe31792206ba" name="Changes" comment="123" />
++    <list default="true" id="8d18e00e-637d-47f4-adce-fe31792206ba" name="Changes" comment="10/07nn">
++      <change afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -63,7 +66,7 @@
+       <recent name="pages" />
+     </key>
+   </component>
+-  <component name="RunManager">
++  <component name="RunManager" selected="TestNG.LoginTest">
+     <configuration name="BaseTest" type="TestNG" temporary="true" nameIsGenerated="true">
+       <module name="TestRailProject" />
+       <extension name="coverage">
+@@ -74,6 +77,23 @@
+       </extension>
+       <option name="PACKAGE_NAME" value="data" />
+       <option name="MAIN_CLASS_NAME" value="data.BaseTest" />
++      <option name="TEST_OBJECT" value="CLASS" />
++      <properties />
++      <listeners />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
++      <module name="TestRailProject" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="tests.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <option name="PACKAGE_NAME" value="tests" />
++      <option name="MAIN_CLASS_NAME" value="tests.LoginTest" />
+       <option name="TEST_OBJECT" value="CLASS" />
+       <properties />
+       <listeners />
+@@ -83,6 +103,7 @@
+     </configuration>
+     <recent_temporary>
+       <list>
++        <item itemvalue="TestNG.LoginTest" />
+         <item itemvalue="TestNG.BaseTest" />
+       </list>
+     </recent_temporary>
+@@ -138,7 +159,21 @@
+       <option name="project" value="LOCAL" />
+       <updated>1657387638053</updated>
+     </task>
+-    <option name="localTasksCounter" value="7" />
++    <task id="LOCAL-00007" summary="10/07к">
++      <created>1657459319999</created>
++      <option name="number" value="00007" />
++      <option name="presentableId" value="LOCAL-00007" />
++      <option name="project" value="LOCAL" />
++      <updated>1657459319999</updated>
++    </task>
++    <task id="LOCAL-00008" summary="10/07к">
++      <created>1657459395701</created>
++      <option name="number" value="00008" />
++      <option name="presentableId" value="LOCAL-00008" />
++      <option name="project" value="LOCAL" />
++      <updated>1657459395701</updated>
++    </task>
++    <option name="localTasksCounter" value="9" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -167,6 +202,7 @@
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="adf" />
+     <MESSAGE value="123" />
+-    <option name="LAST_COMMIT_MESSAGE" value="123" />
++    <MESSAGE value="10/07к" />
++    <option name="LAST_COMMIT_MESSAGE" value="10/07к" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: src/test/java/tests/LoginTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/tests/LoginTest.java b/src/test/java/tests/LoginTest.java
+new file mode 100644
+--- /dev/null	(date 1657464066163)
++++ b/src/test/java/tests/LoginTest.java	(date 1657464066163)
+@@ -0,0 +1,31 @@
++package tests;
++
++
++import baseEntities.BaseTest;
++import configuration.ReadProperties;
++import org.testng.Assert;
++import org.testng.annotations.Test;
++
++
++public class LoginTest extends BaseTest {
++
++    @Test
++    public void successLoginTest() {
++        Assert.assertTrue(loginStep.successLogin(ReadProperties.username(),ReadProperties.password()).isPageOpened());
++    }
++    @Test
++    public void incorrectEmailLoginTest() {
++        Assert.assertEquals(
++                loginStep.incorrectLogin(
++                        "tgsegseg", ReadProperties.password()).getErrorTextElement().getText(),
++                "Email/Login or Password is incorrect. Please try again.", "Неверное сообщение об ошибке");
++    }
++
++    @Test
++    public void incorrectPswLoginTest() {
++        Assert.assertEquals(
++                loginStep.incorrectLogin(
++                        ReadProperties.username(), "sfasf").getErrorTextElement().getText(),
++                "Email/Login or Password is incorrect. Please try again.", "Неверное сообщение об ошибке");
++    }
++}
+\ No newline at end of file
