@@ -32,4 +32,10 @@ public class LoginPage extends BasePage {
         return driver.findElement(logInButtonLocator);
     }
     public WebElement getErrorTextElement(){return driver.findElement(errorTextLocator);}
+
+
+
+
+
+
 }

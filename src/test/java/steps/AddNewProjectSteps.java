@@ -17,3 +17,4 @@ public class AddNewProjectSteps extends BaseStep {
         return newProjectAddedPage;
     }
 }
+

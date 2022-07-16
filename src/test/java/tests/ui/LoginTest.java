@@ -2,18 +2,21 @@ package tests.ui;
 
 import baseEntities.BaseTest;
 import configuration.ReadProperties;
+import io.qameta.allure.Feature;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 
 public class LoginTest extends BaseTest {
 
+    @Feature("Успешный логин")
     @Test
     public void successLoginTest() {
         Assert.assertTrue(loginStep.successLogin(ReadProperties.username(),ReadProperties.password()).isPageOpened());
         }
 
-   @Test
+    @Feature("Ввод некорректного логина")
+    @Test
    public void incorrectEmailLoginTest() {
        Assert.assertEquals(
                loginStep.incorrectLogin(
@@ -21,6 +24,7 @@ public class LoginTest extends BaseTest {
                     "Email/Login or Password is incorrect. Please try again.", "Неверное сообщение об ошибке");
         }
 
+   @Feature("Ввод некорректного логина")
    @Test
    public void incorrectPswLoginTest() {
        Assert.assertEquals(
@@ -29,3 +33,4 @@ public class LoginTest extends BaseTest {
                     "Email/Login or Password is incorrect. Please try again.", "Неверное сообщение об ошибке");
         }
     }
+
