@@ -1,4 +1,3 @@
-package tests.ui;
 
 import baseEntities.BaseTest;
 import common.WaitsService;
@@ -15,17 +14,6 @@ import java.time.Duration;
 
 public class ProjectTest extends BaseTest {
 
-
-    @Feature("тест на загрузку файла")
-    @Test
-    public void fileUploadTest() {
-        driver.get("https://shpilka.testrail.io/index.php?/cases/add/1");
-
-        WaitsService wait = new WaitsService(driver, Duration.ofSeconds(20));
-        WebElement fileUploadPath = wait.waitForVisibility(driver.findElement(By.id("entityAttachmentListEmptyIcon")));
-        fileUploadPath.sendKeys("attachment-library-add-icon dz-clickable");
-        wait.waitForVisibility(driver.findElement(By.id("file-submit"))).submit();
-    }
     @Feature("тест на граничные значения")
     @Test
     public void addUserName() {
