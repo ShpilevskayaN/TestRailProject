@@ -3,7 +3,6 @@ package baseEntities;
 
 import configuration.ReadProperties;
 import helper.ProjectHelper;
-import helpers.ProjectHelper;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import org.apache.http.protocol.HTTP;

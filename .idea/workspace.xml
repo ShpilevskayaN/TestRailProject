@@ -5,7 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d18e00e-637d-47f4-adce-fe31792206ba" name="Changes" comment="17/07">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/baseEntities/BaseApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseEntities/BaseApiTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/ui/AddProjectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ui/AddProjectTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ui/ProjectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ui/ProjectTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/common/BrowsersService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/common/WaitsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/configuration/Comfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/configuration/Endpoints.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/configuration/ReadProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/constans/Constant$Timeout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/constans/Constant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/BasePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/TestRailPage.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,18 +100,19 @@
       <recent name="common" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest">
-    <configuration name="BaseTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.AddProjectTest.fileUploadTest">
+    <configuration name="AddProjectTest.fileUploadTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestRailProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data.*" />
+          <option name="PATTERN" value="tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="data" />
-      <option name="MAIN_CLASS_NAME" value="data.BaseTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.AddProjectTest" />
+      <option name="METHOD_NAME" value="fileUploadTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -177,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AddProjectTest.fileUploadTest" />
         <item itemvalue="TestNG.TestRailApiTest" />
         <item itemvalue="TestNG.ProjectApiTest.getProjectApiTest" />
         <item itemvalue="TestNG.ProjectApiTest" />
         <item itemvalue="TestNG.LoginTest" />
-        <item itemvalue="TestNG.BaseTest" />
       </list>
     </recent_temporary>
   </component>
@@ -243,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657995765938</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="17/07">
+      <created>1658076915560</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1658076915560</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -273,6 +293,7 @@
     <MESSAGE value="adf" />
     <MESSAGE value="123" />
     <MESSAGE value="15/07" />
-    <option name="LAST_COMMIT_MESSAGE" value="15/07" />
+    <MESSAGE value="17/07" />
+    <option name="LAST_COMMIT_MESSAGE" value="17/07" />
   </component>
 </project>

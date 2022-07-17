@@ -15,14 +15,6 @@ import java.time.Duration;
 
 public class ProjectTest extends BaseTest {
 
-    @Feature("тест на отображение диалогового окна")
-    @Test
-    public void popUpWindowTest(){
-
-        driver.get("");
-        WaitsService wait = new WaitsService(driver, Duration.ofSeconds(20));
-        WebElement fileUploadPath = wait.waitForClickableElement(By.id(""));
-    }
 
     @Feature("тест на загрузку файла")
     @Test
@@ -30,11 +22,9 @@ public class ProjectTest extends BaseTest {
         driver.get("https://shpilka.testrail.io/index.php?/cases/add/1");
 
         WaitsService wait = new WaitsService(driver, Duration.ofSeconds(20));
-        WebElement fileUploadPath = wait.waitForVisibility(By.id("entityAttachmentListEmptyIcon"));
+        WebElement fileUploadPath = wait.waitForVisibility(driver.findElement(By.id("entityAttachmentListEmptyIcon")));
         fileUploadPath.sendKeys("attachment-library-add-icon dz-clickable");
-        wait.waitForVisibility(By.id("file-submit")).submit();
-
-
+        wait.waitForVisibility(driver.findElement(By.id("file-submit"))).submit();
     }
     @Feature("тест на граничные значения")
     @Test
