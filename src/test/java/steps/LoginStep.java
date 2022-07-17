@@ -34,27 +34,24 @@ public class LoginStep extends BaseStep {
 
         return loginPage;
 
+
+
     }
 
 
     public LoginPage boundaries250() {
         String random250 = RandomStringUtils.randomAlphabetic(250);
         login(ReadProperties.username(), random250);
-        return loginPage;}
-
+        return loginPage;
+    }
 
     public LoginPage boundaries249() {
-
-
         String random249= RandomStringUtils.randomAlphabetic(249);
         login(random249, ReadProperties.password());
         return loginPage;
-
-
     }
 
     public LoginPage logout(){
         return loginPage;
-
     }
 }

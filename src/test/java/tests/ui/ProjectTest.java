@@ -38,10 +38,6 @@ public class ProjectTest extends BaseTest {
     }
     @Feature("тест на граничные значения")
     @Test
-    public void maxAddTextName() {
-        Assert.assertEquals();
-        Assert.assertEquals(calculator.div(4.5, 3), 1.5, "Результат деления дробных чисел неверен");
-    }
     public void addUserName() {
         String userName1 = RandomStringUtils.randomAlphabetic(251);
         loginStep.login(userName1, ReadProperties.password());

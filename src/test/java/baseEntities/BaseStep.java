@@ -8,7 +8,7 @@ public class BaseStep {
     protected AddProjectPage addProjectPage;
     protected DashboardPage dashboardPage;
     protected LoginPage loginPage;
-    protected NewProjectAddedPage newProjectAddedPage;
+    protected NewProjectAddPage newProjectAddPage;
     protected ProjectsPage projectsPage;
 
 
@@ -18,7 +18,7 @@ public class BaseStep {
         dashboardPage = new DashboardPage(driver);
         projectsPage = new ProjectsPage(driver);
         addProjectPage = new AddProjectPage(driver);
-        newProjectAddedPage = new NewProjectAddedPage(driver);
+        newProjectAddPage = new NewProjectAddPage(driver);
 
     }
 
