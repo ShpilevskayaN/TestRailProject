@@ -4,7 +4,6 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import steps.LoginStep;
-import steps.NavigationSteps;
 import common.BrowsersService;
 import configuration.ReadProperties;
 import org.openqa.selenium.WebDriver;
