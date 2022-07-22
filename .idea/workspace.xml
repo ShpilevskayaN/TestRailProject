@@ -4,7 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d18e00e-637d-47f4-adce-fe31792206ba" name="Changes" comment="17/07" />
+    <list default="true" id="8d18e00e-637d-47f4-adce-fe31792206ba" name="Changes" comment="22/07">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/07e8e1b8-359d-4c91-bb50-6f915b0587db-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/12a00f7f-3c2a-45d1-b26a-9661466c7b97-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1b01236a-a9e1-4d5a-806b-a02cf936bbb0-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1fbf1fdf-b318-4d67-83dc-d5751b7b34c5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2c8f7972-e2d6-4856-a82c-61baf349439b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2cf55a03-e8be-4465-b026-f06035a5232a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/41967502-686f-41bd-8011-3b955a02e55f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/4d9ab077-b692-4e79-a95e-fe76f05b0ba9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/4f2822c2-4fee-4409-af2d-3e677e543d2a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/721c8c21-90f3-423c-aee8-8dcd0d053882-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/74c6d827-e92c-4624-82f1-83718b7e4ec5-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/80307b92-4303-48e1-95bd-afe0b4416094-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/90524221-dab8-400e-ba21-9e925089d21f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/97523b51-89a9-445e-99f9-29e6c3ab8827-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/9dd75cad-754c-436d-bf26-9c06868300a5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/9f945c1d-32a9-4c1c-b2e7-ab3da9ed4dea-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/b483b652-af0d-43e0-92ba-c4833735667d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/b6047bc1-2e19-4d04-8706-995dc299d1a6-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/bede6b4f-46ff-42f4-acc6-d9b8624db116-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/dfc4f145-925d-4fd6-ab7f-bb17932a0bdf-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e332182c-de41-4a8c-b310-c14996eb0ad6-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e4182457-02b7-4dd3-ae87-a3f310378f3e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f9fb333d-7a28-44ee-981f-08042cf27268-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/fd8c96a6-9320-4363-bb50-c68d663aa41f-container.json" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +98,12 @@
       <recent name="Services" />
       <recent name="pages" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\QA18\TestRailProject" />
+      <recent name="D:\QA18\TestRailProject\src\test\java" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\QA18\TestRailProject\target" />
       <recent name="D:\QA18\TestRailProject\src\main\java" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -256,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658518979559</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="22/07">
+      <created>1658519373168</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1658519373168</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -287,7 +326,8 @@
     <MESSAGE value="123" />
     <MESSAGE value="commit" />
     <MESSAGE value="17/07" />
-    <option name="LAST_COMMIT_MESSAGE" value="17/07" />
+    <MESSAGE value="22/07" />
+    <option name="LAST_COMMIT_MESSAGE" value="22/07" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
