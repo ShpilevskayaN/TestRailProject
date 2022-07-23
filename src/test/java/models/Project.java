@@ -3,22 +3,19 @@ package models;
 import com.google.gson.annotations.SerializedName;
 import lombok.Builder;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
+
 
 @Data
 @Builder
+@EqualsAndHashCode
 public class Project {
-    private int id;
     private String name;
-    private String description;
-    @SerializedName(value = "due_on")
-    private String dueOn;
-    @SerializedName(value = "parent_id")
-    private int parentId;
-    private String refs;
-    @SerializedName(value = "start_on")
-    private String startOn;
+    private String announcement;
+    private boolean isShowAnnouncement;
+    @SerializedName(value = "suite_mode")
+    private int typeOfProject;
     @SerializedName(value = "is_completed")
     private boolean isCompleted;
-    @SerializedName(value = "is_started")
-    private boolean isStarted;
+    private User user;
 }

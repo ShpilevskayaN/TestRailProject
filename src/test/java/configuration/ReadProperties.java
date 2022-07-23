@@ -10,7 +10,7 @@ public class ReadProperties {
     static {
         properties = new Properties();
         try {
-            properties.load(configuration.ReadProperties.class.getClassLoader().getResourceAsStream("config.properties"));
+            properties.load(ReadProperties.class.getClassLoader().getResourceAsStream("config.properties"));
         } catch (IOException e) {
             e.printStackTrace();
         }
