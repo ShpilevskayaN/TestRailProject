@@ -1,41 +1,33 @@
 package pages;
 
-
 import baseEntities.BasePage;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import com.codeborne.selenide.SelenideElement;
+import lombok.Getter;
 
+import static com.codeborne.selenide.Selectors.byClassName;
+import static com.codeborne.selenide.Selectors.byName;
+import static com.codeborne.selenide.Selenide.$;
+import static com.codeborne.selenide.Selenide.$x;
 
-public class LoginPage extends BasePage {
+@Getter
+public  class LoginPage extends BasePage {
 
-    //Блок описания селекторов для элементов
-    private By emailInputLocator = By.id("name");
-    private By pswInputLocator = By.id("password");
-    private By logInButtonLocator = By.id("button_primary");
-    private By errorTextLocator = By.className("error-text");
+    private final SelenideElement pageIdentifier = $(".logo-loginpage");
+    private final SelenideElement userName = $(byName("name"));
+    private final SelenideElement passWord = $("#password");
+    private final SelenideElement buttonEnter = $("#button_primary");
+    private final SelenideElement errorTextLocator = $(byClassName("error-text"));
 
-    //Блок инициализации
-    public LoginPage(WebDriver driver) {super(driver);}
+    private SelenideElement errorLocator = $x("//div[text()='Field Email/User is too long (250 characters at most).']");
+
+    public SelenideElement getErrorTextLocator() {
+        return errorTextLocator;
+    }
 
     @Override
-    protected By getPageIdentifier() {
-        return emailInputLocator;
+    protected SelenideElement getPageIdentifier() {
+        return pageIdentifier;
     }
-
-    //Блок атомарных методов
-    public WebElement getEmailInput(){return driver.findElement(emailInputLocator);}
-    public WebElement getPswInput(){
-        return driver.findElement(pswInputLocator);
-    }
-    public WebElement getLogInButton(){
-        return driver.findElement(logInButtonLocator);
-    }
-    public WebElement getErrorTextElement(){return driver.findElement(errorTextLocator);}
-
-
-
-
 
 
 }
